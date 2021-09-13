@@ -21,7 +21,6 @@ public class SortingArray {
                     n[j+1] = temp;
                 }
             }
-            System.out.println(n[0]);
         }
         
     }
