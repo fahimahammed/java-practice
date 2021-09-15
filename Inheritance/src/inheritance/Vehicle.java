@@ -9,10 +9,12 @@ package inheritance;
  *
  * @author Fahim
  */
-public class Vehicle extends CarName{
+public class Vehicle{
     public static int speed  = 10;
     public static void brand(){
         System.out.println("Toyota");
-        System.out.println(Name());
+    }
+    public static void name1(){
+        System.out.println("Name");
     }
 }
