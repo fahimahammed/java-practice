@@ -9,9 +9,11 @@ package inheritace2;
  *
  * @author Fahim
  */
-public class Person {
-    String name = "Fahim";
-    int age;
-    int roll;
-    int id;
+public class Main {
+    public static void main(String[] args) {
+        Result r = new Result();
+        Details d = new Details();
+        r.studentResult();
+        d.showDetails();
+    }
 }

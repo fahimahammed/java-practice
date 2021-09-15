@@ -9,8 +9,10 @@ package inheritace2;
  *
  * @author Fahim
  */
-public class Show extends Person{
-    void showPerson(){
-        System.out.println(name);
+public class Details extends Student{
+    void showDetails(){
+        System.out.println("Name: "+name);
+        System.out.println("Age: "+age);
+        System.out.println("Roll: "+roll);
     }
 }
