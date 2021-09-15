@@ -13,4 +13,9 @@ public class Student {
     String name = "Fahim Ahammed Firoz";
     int age = 21;
     int roll = 128;
+    
+    Student(){
+        name = "Fahim Ahammed";
+    }
+    
 }
