@@ -9,6 +9,8 @@ package abstruct;
  *
  * @author Fahim
  */
-abstract class Animal{
-    abstract void makeNoise();
+public class Dog extends Animal{
+    void makeNoise(){
+        System.out.println("Bark");
+    }
 }

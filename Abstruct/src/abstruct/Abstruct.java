@@ -16,6 +16,8 @@ public class Abstruct {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Animal d = new Dog();
+        d.makeNoise();
     }
     
 }
