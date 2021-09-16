@@ -9,6 +9,8 @@ package abstruct;
  *
  * @author Fahim
  */
-abstruct class Animal {
-    
+abstruct class Animal{
+    abstruct void makeNoise(){
+        System.out.println("Bark");
+    }
 }
