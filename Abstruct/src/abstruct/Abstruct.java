@@ -18,8 +18,8 @@ public class Abstruct {
         // TODO code application logic here
         Animal d = new Dog();
         Animal c = new Cat();
-        c.makeNoise();
-        d.makeNoise();
+        c.makeNoise(); // print mew mew
+        d.makeNoise(); // print bark
     }
     
 }
