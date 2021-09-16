@@ -18,6 +18,12 @@ public class Polymorphism {
         // TODO code application logic here
         Animal a = new Animal();
         a.makeNoise(); // print some sound
+        
+        Animal a2 = new Dog();
+        a2.makeNoise(); // print Bark
+        
+        Animal a3 = new Cat();
+        a3.makeNoise();
     }
     
 }

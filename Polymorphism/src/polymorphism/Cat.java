@@ -9,9 +9,10 @@ package polymorphism;
  *
  * @author Fahim
  */
-public class Dog extends Animal{
+public class Cat extends Animal{
     @Override
     public void makeNoise(){
-        System.out.println("Bark");
+        System.out.println("Mew Mew");
     }
 }
+
