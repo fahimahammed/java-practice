@@ -9,10 +9,9 @@ package inheritace2;
  *
  * @author Fahim
  */
-public class Result extends Student{
-    
-    void studentResult (){
-        System.out.println("Name: "+name);
+public class FinalResult extends Student{
+   void finalResult (){
+        System.out.println(name);
         System.out.println("Result: 5.00");
     }
 }
